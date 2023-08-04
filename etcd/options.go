@@ -12,7 +12,7 @@ type clientKey struct{}
 
 type logConfigKey struct{}
 
-func Client(client clientv3.Client) registry.Option {
+func Client(client *clientv3.Client) registry.Option {
 	return func(o *registry.Options) {
 		if o.Context == nil {
 			o.Context = context.Background()
