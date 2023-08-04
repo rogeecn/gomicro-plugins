@@ -1,4 +1,4 @@
-module github.com/rogeecn/gomicro-plugins/etcd
+module github.com/rogeecn/gomicro-plugins/registry/etcd
 
 go 1.17
 
