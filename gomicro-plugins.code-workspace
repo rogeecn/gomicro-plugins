@@ -2,6 +2,7 @@
 	"folders": [
 		{ "path": "." },
 		{ "path": "registry/etcd" },
+		{ "path": "cache/redis" },
 	],
 	"settings": {}
 }
